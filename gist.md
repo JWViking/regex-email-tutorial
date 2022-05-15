@@ -57,14 +57,25 @@ A regex (regular expression) is a string of characters, numbers, and letters in 
 - `[a-z0-9_\.-]` means it can have any lower case letter from a to z or any digit from 0 to 9 or a "-" or a "_" (underscore) or a special character "."
 
 
-### Greedy and Lazy Match
+### Greedy and Lazy Match ***Get help here***
+- *, +, {}
+- `+`
+- `{2,6}`
 
 ### Boundaries
+- \b, and \B
+- This regex does not contain boundaries
 
 ### Back-references
+- \1
+- This reges does not contain back-references
 
 ### Look-ahead and Look-behind
+- (?=), (?<=)
+- There are none of these in this regex
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+- Created by Juliana Wilcox, a full stack web developer/junior dev.
+- https://github.com/JWViking
+
