@@ -49,10 +49,12 @@ A regex (regular expression) is a string of characters, numbers, and letters in 
 - There are no flags in this regex
 
 ### Grouping and Capturing
-
+- ()
+- This regex is broken down in to three specific groups: `([a-z0-9_\.-]+)`, `([\da-z\.-]+)`, and `([a-z\.]{2,6})`. `([a-z0-9_\.-]+)` is the section that captures the user email name. `([\da-z\.-]+)` captures the email service that is being used. `([a-z\.]{2,6})` captures ".com" typically.
 
 
 ### Bracket Expressions
+
 
 ### Greedy and Lazy Match
 
