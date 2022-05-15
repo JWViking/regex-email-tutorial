@@ -39,9 +39,8 @@ A regex (regular expression) is a string of characters, numbers, and letters in 
  - this regex does not contain any OR operators
 
 ### Character Classes
-- \d (digit), \w (word), \s (whitespace), and `\.` (special character)
+- \d (digit), \w (word), \s (whitespace)
 - \ means "matches a" and then watever follows. So, a digit, or a word, or a whitespace or a special character.
-- `\.` means there is a "." in that spot in the pattern. 
 -  `d` means there is any digit there within the range of 0-9.
 
 ### Flags
@@ -54,6 +53,8 @@ A regex (regular expression) is a string of characters, numbers, and letters in 
 
 
 ### Bracket Expressions
+- [] means matches a string that contains any of the search values within it.
+- `[a-z0-9_\.-]` means it can have any lower case letter from a to z or any digit from 0 to 9 or a "-" or a "_" (underscore) or a special character "."
 
 
 ### Greedy and Lazy Match
