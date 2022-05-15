@@ -39,11 +39,18 @@ A regex (regular expression) is a string of characters, numbers, and letters in 
  - this regex does not contain any OR operators
 
 ### Character Classes
-
+- \d (digit), \w (word), \s (whitespace), and `\.` (special character)
+- \ means "matches a" and then watever follows. So, a digit, or a word, or a whitespace or a special character.
+- `\.` means there is a "." in that spot in the pattern. 
+-  `d` means there is any digit there within the range of 0-9.
 
 ### Flags
+- /  /
+- There are no flags in this regex
 
 ### Grouping and Capturing
+
+
 
 ### Bracket Expressions
 
