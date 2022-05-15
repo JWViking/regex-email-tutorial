@@ -27,9 +27,14 @@ A regex (regular expression) is a string of characters, numbers, and letters in 
 
 - This regex uses the anchors `^` and `&`.
 - `^` Refers to what is happening at the beginning of a regex string. If it is used before something like "Unicorn", it would look like `^Unicorn` and would find match any strings that start with Unicorn.
-- `
+- `&` Means matches a string that ends with a specific thing. For example, `sidewalk$`. This would match with any string that ends with sidewalk. (Where the sidewalk ends :)
 
 ### Quantifiers
+
+- *, +, ?, and {} are regex quanitifiers.
+- This specific regex uses + and {}
+- `+ @` Means that the first string is followed by one or more @ symbols. , `+ .` means that the string is followd by one or more `.` symbols.
+- {2,6} allows for two to six characters in the previous character set of `[a-z\.]`.
 
 ### OR Operator
 
